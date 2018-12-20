@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %} Bicycle Parking - Locator {% endblock %}
+
+{% block content %}
+    {{ super() }}
+    <section id="locator" class="about-section text-center">
+      <div class="container" style="padding-bottom: 2%;">
+        <div class="row" style="height: 80vh;">
+            <div id="stations" class="md-col-3" >
+
+            </div>
+            <div id="map" class="md-col-9" style="height: 100%; width: 100%;" ></div>
+        </div>
+      </div>
+    </section>
+{% endblock %}
+
+
+
+{% block scripts %}
+   {{ super() }}
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuamO5vdx4jrJzHvAAKv8kMeC8QkdefkE&libraries=geometry"></script>
+  <script src="{{url_for('static', filename='js/locator/stations.js')}}" type="text/javascript"></script>
+{% endblock %}
+
