@@ -1,0 +1,31 @@
+version: '2'
+services:
+  app:
+    build: app
+    volumes:
+      - ./app/data/bicyparking:/opt/bicyparking
+    entrypoint: /entrypoint.sh
+    networks:
+      - bicyparking
+    ports:
+      - "80:8080"
+      - "443:8443"
+    depends_on:
+      - db
+  db:
+    restart: always
+    image: mariadb:10
+    mem_limit: 2G
+    volumes:
+      - ./db/data:/var/lib/mysql
+    networks:
+      - bicyparking
+    environment:
+      - MYSQL_DATABASE=bicyparking
+      - MYSQL_USER=bicy
+      - MYSQL_PASSWORD=parking
+      - MYSQL_ROOT_PASSWORD=parking
+networks:
+  bicyparking:
+    driver: bridge
+
