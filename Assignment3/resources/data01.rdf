@@ -28,15 +28,15 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 	 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/EMAIL">
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/#EMAIL">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Datatype>
     
-    <rdfs:Property rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/Family">
+    <rdfs:Property rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/#Family">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Property>
 
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/Given">
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/#Given">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Datatype>
  
