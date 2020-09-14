@@ -79,7 +79,7 @@
 
     <Person rdf:about="#HarryPotter">
         <vcard-rdf:Given rdf:datatype="&xsd;string">Harry</vcard-rdf:Given>
-        <vcard-rdf:Family rdf:datatype="&xsd;string">Potter</vcard-rdf:EMAIL>
+        <vcard-rdf:Family rdf:datatype="&xsd;string">Potter</vcard-rdf:Family>
     </Person>
     
 
