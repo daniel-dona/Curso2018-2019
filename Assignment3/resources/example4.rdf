@@ -70,6 +70,7 @@
     <!-- http://www.semanticweb.org/ontologies/example4.rdf#http://www.w3.org/2001/vcard-rdf/3.0/Given -->
 
     <rdfs:Datatype rdf:about="#http://www.w3.org/2001/vcard-rdf/3.0/Given">
+        <rdfs:domain rdf:resource="#Person"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Datatype>
     
@@ -78,6 +79,7 @@
     <!-- http://www.semanticweb.org/ontologies/example4.rdf#http://xmlns.com/foaf/0.1/email -->
 
     <rdfs:Datatype rdf:about="#http://xmlns.com/foaf/0.1/email">
+        <rdfs:domain rdf:resource="#Person"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Datatype>
     
