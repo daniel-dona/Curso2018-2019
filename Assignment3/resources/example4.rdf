@@ -52,7 +52,7 @@
 
     <!-- http://www.semanticweb.org/ontologies/example4.rdf#http://www.w3.org/2001/vcard-rdf/3.0/FN -->
 
-    <rdfs:Datatype rdf:about="#http://www.w3.org/2001/vcard-rdf/3.0/FN">
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/FN">
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdfs:Datatype>
     
@@ -60,7 +60,7 @@
 
     <!-- http://www.semanticweb.org/ontologies/example4.rdf#http://www.w3.org/2001/vcard-rdf/3.0/Family -->
 
-    <rdf:Property rdf:about="#http://www.w3.org/2001/vcard-rdf/3.0/Family">
+    <rdf:Property rdf:about="http://www.w3.org/2001/vcard-rdf/3.0/Family">
         <rdfs:domain rdf:resource="#Person"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </rdf:Property>
