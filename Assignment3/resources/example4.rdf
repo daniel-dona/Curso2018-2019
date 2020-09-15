@@ -35,7 +35,7 @@
 
     <!-- http://www.semanticweb.org/ontologies/example4.rdf#http://xmlns.com/foaf/0.1/knows -->
 
-    <rdfs:Property rdf:about="#http://xmlns.com/foaf/0.1/knows"/>
+    <rdf:Property rdf:about="#http://xmlns.com/foaf/0.1/knows"/>
     
 
 
@@ -60,9 +60,9 @@
 
     <!-- http://www.semanticweb.org/ontologies/example4.rdf#http://www.w3.org/2001/vcard-rdf/3.0/Family -->
 
-    <rdfs:Property rdf:about="#http://www.w3.org/2001/vcard-rdf/3.0/Family">
+    <rdf:Property rdf:about="#http://www.w3.org/2001/vcard-rdf/3.0/Family">
         <rdfs:range rdf:resource="&xsd;string"/>
-    </rdfs:Property>
+    </rdf:Property>
     
 
 
